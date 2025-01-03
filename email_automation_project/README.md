@@ -30,3 +30,38 @@ Este proyecto automatiza la gestión de correos electrónicos, proporcionando fu
 2. **Instala dependencias:**
    ```bash
    pip install -r requirements.txt
+
+
+# Email Automation Script
+
+## Description
+This project automates email management by providing functionalities such as:
+- Reading unread emails from the inbox.
+- Sending automatic replies based on keywords.
+- Downloading and organizing email attachments.
+- Sending notifications for important emails.
+
+## Features
+1. **Read Unread Emails:**
+   - Searches and processes unread emails in the inbox.
+2. **Automatic Replies:**
+   - Automatically replies to specific emails.
+3. **Attachment Download:**
+   - Saves attachments in folders organized by sender or date.
+4. **Email Notifications:**
+   - Sends summaries of important emails to the administrator.
+
+## How to Use
+1. **Set up credentials:**
+   - Create a `.env` file with the following format:
+     ```plaintext
+     EMAIL_USERNAME=your_email@gmail.com
+     EMAIL_PASSWORD=your_application_password
+     IMAP_SERVER=imap.gmail.com
+     SMTP_SERVER=smtp.gmail.com
+     SMTP_PORT=587
+     ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
