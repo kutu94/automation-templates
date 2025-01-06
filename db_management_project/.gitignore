@@ -1,0 +1,31 @@
+# Ignorar archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.env
+
+# Ignorar configuraciones específicas del entorno
+.vscode/
+.idea/
+*.log
+*.sqlite3
+
+# Ignorar salidas generadas
+/output/*.csv
+/output/*.pdf
+
+# Ignorar dependencias locales y globales
+env/
+venv/
+*.egg-info/
+*.egg
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignorar configuraciones específicas de MySQL Workbench
+*.mwba
