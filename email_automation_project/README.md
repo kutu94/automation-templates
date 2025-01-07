@@ -65,3 +65,6 @@ This project automates email management by providing functionalities such as:
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+
+### Licencia    
+- Este proyecto se encuentra bajo la licencia [MIT](https://github.com/kutu94/automation-templates/blob/main/LICENSE).

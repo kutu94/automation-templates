@@ -35,3 +35,6 @@ This project automates report generation by processing data from CSV or Excel fi
 3. Run the main script:
    ```bash
    python main.py
+
+### Licencia    
+- Este proyecto se encuentra bajo la licencia [MIT](https://github.com/kutu94/automation-templates/blob/main/LICENSE).

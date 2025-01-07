@@ -50,3 +50,6 @@ This project is designed to be generic, professional, and easy to customize, ide
 1. **Python 3.10+** installed on your machine.
 2. **MySQL Server** configured and running.
 3. Required libraries installed from `requirements.txt`.
+
+### Licencia    
+- Este proyecto se encuentra bajo la licencia [MIT](https://github.com/kutu94/automation-templates/blob/main/LICENSE).

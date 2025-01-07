@@ -1,7 +1,7 @@
-from scripts.db_connector import connect_to_database
 from scripts.db_operations import listar_tabla, verificar_existencia, actualizar_precio, eliminar_registro
 from scripts.data_loader import cargar_datos_desde_csv
 from scripts.export_utils import exportar_a_pdf, exportar_a_csv
+from scripts.db_connector import connect_to_database
 
 def exportar_productos(connection):
     """Exporta los productos a PDF y CSV."""
