@@ -1,0 +1,6 @@
+2025-01-06 17:52:31,336 - === Inicio del proceso de limpieza de datos ===
+2025-01-06 17:52:32,097 - Número de registros iniciales: 10000
+2025-01-06 17:52:32,097 - Número de registros después de limpieza: 10000
+2025-01-06 17:52:32,097 - Registros eliminados: 0
+2025-01-06 17:52:32,097 - Columnas procesadas: ['Nombre', 'Correo', 'Edad', 'Registro']
+2025-01-06 17:52:32,152 - === Proceso completado ===

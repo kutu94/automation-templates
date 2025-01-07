@@ -1,0 +1,27 @@
+2025-01-06 14:48:04,094 - Limpieza completada: valores faltantes rellenados, duplicados eliminados, texto normalizado.
+2025-01-06 15:02:05,378 - Limpieza completada: valores faltantes rellenados, duplicados eliminados, texto normalizado.
+2025-01-06 15:02:05,380 - Validación completada: correos y fechas validados.
+2025-01-06 15:02:05,383 - Datos exportados a data/cleaned_data.csv
+2025-01-06 16:04:52,167 - === Inicio del proceso de limpieza de datos ===
+2025-01-06 16:04:52,167 - Fecha y hora: 2025-01-06 16:04:52.167570
+2025-01-06 16:04:52,174 - Número de registros iniciales: 4
+2025-01-06 16:04:52,174 - Número de registros después de limpieza: 3
+2025-01-06 16:04:52,174 - Registros eliminados: 1
+2025-01-06 16:04:52,175 - Columnas procesadas: ['Nombre', 'Correo', 'Edad', 'Registro']
+2025-01-06 16:04:52,177 - === Proceso completado ===
+2025-01-06 16:11:00,532 - === Inicio del proceso de limpieza de datos ===
+2025-01-06 16:11:00,532 - Fecha y hora: 2025-01-06 16:11:00.532874
+2025-01-06 16:11:36,102 - === Inicio del proceso de limpieza de datos ===
+2025-01-06 16:11:36,102 - Fecha y hora: 2025-01-06 16:11:36.102204
+2025-01-06 16:11:36,112 - Número de registros iniciales: 4
+2025-01-06 16:11:36,112 - Número de registros después de limpieza: 3
+2025-01-06 16:11:36,112 - Registros eliminados: 1
+2025-01-06 16:11:36,112 - Columnas procesadas: ['Nombre', 'Correo', 'Edad', 'Registro']
+2025-01-06 16:11:36,114 - === Proceso completado ===
+2025-01-06 16:13:20,589 - === Inicio del proceso de limpieza de datos ===
+2025-01-06 16:13:20,589 - Fecha y hora: 2025-01-06 16:13:20.589384
+2025-01-06 16:13:21,278 - Número de registros iniciales: 10000
+2025-01-06 16:13:21,278 - Número de registros después de limpieza: 10000
+2025-01-06 16:13:21,278 - Registros eliminados: 0
+2025-01-06 16:13:21,278 - Columnas procesadas: ['Nombre', 'Correo', 'Edad', 'Registro']
+2025-01-06 16:13:21,298 - === Proceso completado ===
