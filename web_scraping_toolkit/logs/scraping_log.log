@@ -1,0 +1,74 @@
+2025-01-08 16:40:48,509 - INFO - Iniciando scraping en https://www.bbc.com/mundo
+2025-01-08 16:40:48,595 - INFO - Artículos encontrados: 43
+2025-01-08 16:40:48,597 - INFO - Datos exportados a data/articles.json
+2025-01-08 16:41:11,888 - ERROR - Error al monitorear precios: name 'monitor_prices' is not defined
+Traceback (most recent call last):
+  File "G:\Estudio\Python 3\Proyectos\automation-templates\web_scraping_toolkit\main.py", line 33, in main
+    prices = monitor_prices(TARGET_URLS["prices"])
+             ^^^^^^^^^^^^^^
+NameError: name 'monitor_prices' is not defined
+2025-01-08 16:42:33,269 - ERROR - Error al monitorear precios: name 'monitor_prices' is not defined
+Traceback (most recent call last):
+  File "G:\Estudio\Python 3\Proyectos\automation-templates\web_scraping_toolkit\main.py", line 33, in main
+    prices = monitor_prices(TARGET_URLS["prices"])
+             ^^^^^^^^^^^^^^
+NameError: name 'monitor_prices' is not defined
+2025-01-08 17:03:19,396 - ERROR - Error al monitorear precios: name 'monitor_prices' is not defined
+Traceback (most recent call last):
+  File "G:\Estudio\Python 3\Proyectos\automation-templates\web_scraping_toolkit\main.py", line 33, in main
+    prices = monitor_prices(TARGET_URLS["monitor"])
+             ^^^^^^^^^^^^^^
+NameError: name 'monitor_prices' is not defined
+2025-01-08 17:13:03,934 - INFO - Iniciando scraping de precios en https://www.amazon.es/s?k=laptops
+2025-01-08 17:13:05,139 - INFO - Scraping completado en 1.21 segundos. 0 productos encontrados.
+2025-01-08 17:13:36,187 - ERROR - Error al monitorear precios: name 'monitor_prices' is not defined
+Traceback (most recent call last):
+  File "G:\Estudio\Python 3\Proyectos\automation-templates\web_scraping_toolkit\main.py", line 33, in main
+    prices = monitor_prices(TARGET_URLS["monitor"])
+             ^^^^^^^^^^^^^^
+NameError: name 'monitor_prices' is not defined
+2025-01-08 17:30:08,274 - INFO - Iniciando scraping de precios en https://www.amazon.es/s?k=laptops
+2025-01-08 17:30:09,590 - INFO - Scraping completado en 1.32 segundos. 0 productos encontrados.
+2025-01-08 17:30:32,645 - INFO - Iniciando scraping de precios en https://www.pccomponentes.com/monitores-pc
+2025-01-08 17:30:32,682 - ERROR - Error al realizar el scraping: 403 Client Error: Forbidden for url: https://www.pccomponentes.com/monitores-pc
+2025-01-08 17:34:29,640 - INFO - Iniciando scraping de precios en https://www.pccomponentes.com/monitores-pc
+2025-01-08 17:34:29,685 - ERROR - Error al realizar el scraping: 403 Client Error: Forbidden for url: https://www.pccomponentes.com/monitores-pc
+2025-01-08 17:39:14,426 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 17:39:15,622 - INFO - Scraping completado en 1.20 segundos. 78 productos encontrados.
+2025-01-08 17:39:15,623 - ERROR - Error al exportar datos: [Errno 2] No such file or directory: 'data/prices.csv'
+2025-01-08 17:41:41,603 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 17:41:42,719 - INFO - Scraping completado en 1.12 segundos. 71 productos encontrados.
+2025-01-08 17:41:42,723 - INFO - Archivo previo respaldado como ../data/prices_20250108_174142.csv
+2025-01-08 17:41:42,723 - INFO - Datos exportados a ../data/prices.csv
+2025-01-08 17:43:45,200 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 17:43:46,285 - INFO - Scraping completado en 1.09 segundos. 72 productos encontrados.
+2025-01-08 17:43:46,288 - INFO - Archivo previo respaldado como ../data/prices_20250108_174346.csv
+2025-01-08 17:43:46,289 - INFO - Datos exportados a ../data/prices.csv
+2025-01-08 18:00:57,739 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 18:00:58,847 - INFO - Scraping completado en 1.11 segundos. 78 productos encontrados.
+2025-01-08 18:01:19,215 - INFO - Iniciando scraping en https://www.bbc.com/mundo
+2025-01-08 18:01:19,271 - INFO - Artículos encontrados: 44
+2025-01-08 18:01:19,272 - INFO - Datos exportados a data/articles.json
+2025-01-08 18:01:25,432 - INFO - Iniciando scraping en https://www.bbc.com/mundo
+2025-01-08 18:01:25,494 - INFO - Artículos encontrados: 44
+2025-01-08 18:01:25,496 - INFO - Datos exportados a data/articles.json
+2025-01-08 18:01:28,217 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 18:01:29,304 - INFO - Scraping completado en 1.09 segundos. 71 productos encontrados.
+2025-01-08 18:02:01,411 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 18:02:02,514 - INFO - Scraping completado en 1.10 segundos. 78 productos encontrados.
+2025-01-08 18:02:02,516 - INFO - Datos exportados a ../data/prices.csv
+2025-01-08 18:03:55,155 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 18:03:56,303 - INFO - Scraping completado en 1.15 segundos. 78 productos encontrados.
+2025-01-08 18:04:21,409 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 18:04:22,665 - INFO - Scraping completado en 1.26 segundos. 78 productos encontrados.
+2025-01-08 18:12:26,963 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 18:12:28,089 - INFO - Scraping completado en 1.13 segundos. 72 productos encontrados.
+2025-01-08 18:12:28,094 - ERROR - Error al exportar datos: dict contains fields not in fieldnames: 'price_is_valid'
+2025-01-08 18:13:14,264 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 18:13:15,430 - INFO - Scraping completado en 1.16 segundos. 79 productos encontrados.
+2025-01-08 18:13:15,432 - INFO - Archivo previo respaldado como ../data/prices_20250108_181315.csv
+2025-01-08 18:13:15,432 - INFO - Datos exportados a ../data/prices.csv
+2025-01-08 18:15:13,067 - INFO - Iniciando scraping de precios en https://www.amazon.es/gp/browse.html?node=937992031&ref_=nav_em__lap_0_2_13_5
+2025-01-08 18:15:14,354 - INFO - Scraping completado en 1.29 segundos. 72 productos encontrados.
+2025-01-08 18:15:14,360 - INFO - Archivo previo respaldado como ../data/prices_20250108_181514.csv
+2025-01-08 18:15:14,361 - INFO - Datos exportados a ../data/prices.csv
