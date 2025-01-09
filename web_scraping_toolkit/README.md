@@ -34,7 +34,7 @@ El **Web Scraping Toolkit** es una herramienta modular diseñada para automatiza
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/automation-templates.git
+   git clone https://github.com/kutu94/automation-templates.git
    cd automation-templates/web_scraping_toolkit
 # Web Scraping Toolkit
 
