@@ -1,0 +1,6 @@
+name,email,phone,city
+John Doe,john@example.com,1234567890,New York
+ Jane Smith, jane.smith@example.com,0987654321 ,Los Angeles
+Mark Johnson,mark.johnson@example.com,,Chicago
+Anna Lee, anna.lee@example.com,5678901234,  Houston
+,invalid@",notanumber,Miami
